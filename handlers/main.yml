@@ -1,0 +1,7 @@
+---
+# handlers file for kishan.elasticsearch
+
+- name: Start service Elasticsearch, if not running
+  service:
+    name: elasticsearch
+    state: restarted
